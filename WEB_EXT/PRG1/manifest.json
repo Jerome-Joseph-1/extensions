@@ -1,9 +1,0 @@
-{
-    "manifest_version": 2,
-    "name": "Pass",
-    "version" : "0.0.1",
-    "description": "Something Big",
-    "browser_action":{
-        "default_popup": "index.html"
-    }
-}
