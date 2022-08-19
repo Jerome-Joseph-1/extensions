@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Password_Manager",
+    "version" : "0.0.2",
+    "description": "Something Big",
+    "icons":{
+        "16":"paper.png",
+        "32":"paper.png",
+        "128":"paper.png"
+
+    },
+    "browser_action":{
+        "default_popup": "index.html"
+    },
+    "permissions": [ "clipboardRead" ]
+}

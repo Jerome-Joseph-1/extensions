@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Pacifico&display=swap');
+
+
+body{
+    color: white;
+    user-select: none;
+    font-family: 'Comfortaa';
+
+    background-image: linear-gradient(47deg, rgb(46, 22, 109), rgb(109, 56, 255));
+    background-repeat: no-repeat;
+    width: 300px;
+}
+
+.plain{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(37 30 92);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 3px;
+}
+
+.plain-txt{
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.plain-txt:hover{
+    cursor: pointer;
+
+}
+
+#cpy{
+    user-select: none;
+    opacity: 0.5;
+    transition: all 300ms ease;
+}
+
+#cpy:hover{
+    opacity: 0.75;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.text{
+    font-family: 'Comfortaa';
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    transition: all 300ms ease;
+}
+
+.text:hover{
+    cursor: pointer;
+    text-shadow: 0px 0px 5px #c7bdff;
+
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.box{
+    user-select: none;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+
+    text-align: center;
+    width: 100%;
+    color: white;
+
+    padding: 10px 0;
+    border: solid white;
+    border-width: 2px;
+    transition: 100ms all;
+
+}
+.box:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 39, 110);
+}
+
+.box:active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 27, 77);
+}
+
+.underline{
+    background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+    
+    background-repeat: no-repeat;
+    background-size:  0% 4px;
+    background-position: bottom left;
+    transition: all 500ms ease;
+}
+
+.underline:hover{
+    background-size:  100% 4px;
+
+}
+
+.image{
+    height: 20px;
+    width: 20px;
+}
+
+.btn{
+    width: 30px;
+
+    margin: 0%;
+    padding: 0%;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+
+    transition: all 300ms ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.highlight:hover{
+    color: white;
+}
+
+#cptxt{
+    padding: 3px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 14px;
+    opacity: 0.5;
+    visibility:hidden;
+}
+
+.hgh{
+    opacity: 0.5;
+    transition: all 300ms ease;
+}
+
+.hgh:hover{
+    opacity: 0.75;
+}
+
+.form-submit{
+    flex-direction: column;
+    width: 100%;
+    row-gap: 15px;
+}
+
+.type{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Comfortaa';
+    border: none;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Pacifico&display=swap');
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+    padding: 44px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-family: 'Comfortaa';
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    transition: all 300ms ease;
+}
+
+.text:hover{
+    cursor: pointer;
+    text-shadow: 0px 0px 5px #c7bdff;
+
+}
+
+.col{
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+body{
+    user-select: none;
+    font-family: 'Comfortaa';
+
+
+    background-image: linear-gradient(47deg, rgb(46, 22, 109), rgb(109, 56, 255));
+    background-repeat: no-repeat;
+    width: 300px;
+}
+
+.box{
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+
+    text-align: center;
+    width: 100%;
+    color: white;
+
+    padding: 10px 0;
+    border: solid white;
+    border-width: 2px;
+
+}
+.box:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 39, 110);
+}
+
+.box:active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 27, 77);
+}
+.underline{
+    background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+    
+    background-repeat: no-repeat;
+    background-size:  0% 4px;
+    background-position: bottom left;
+    transition: all 300ms ease;
+}
+
+.underline:hover{
+    background-size:  100% 4px;
+
+}
